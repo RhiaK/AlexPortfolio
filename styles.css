@@ -1,0 +1,66 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+}
+
+header {
+	color: #c5c3c6;
+	margin-top: 50px;
+}
+
+.name {
+	margin-left: 30px;
+}
+
+.color {
+	color: #146C82;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li {
+	display: inline;
+	float: right;
+	padding: 10px;
+}
+
+.right {
+	position: relative;
+	left: 90%;
+	margin-top: -165px;
+}
+
+.right2{
+	position: relative;
+	margin-right: auto;
+	margin-left: 75%;
+}
+
+@media only screen and (min-width: 990px) {
+	.right2{
+		position: absolute;
+		padding: 0;
+		margin-right: 20px;
+		margin-left: 40%;
+		right: 0;
+	}
+}
+
+img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	z-index: 1020 !default;
+}
+
+.about {
+	color: #c5c3c6;
+	z-index: 1060 !default;
+
+}
