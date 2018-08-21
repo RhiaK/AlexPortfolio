@@ -1,6 +1,10 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: black;
+	background-image: url("image.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -12,8 +16,8 @@ header {
 	margin-left: 30px;
 }
 
-.color {
-	color: #146C82;
+h3 {
+	color: #46494C;
 }
 
 ul {
@@ -52,15 +56,29 @@ li {
 	}
 }
 
-img {
-	width: 100%;
+.nospace {
 	padding: 0px;
 	margin: 0px;
-	z-index: 1020 !default;
 }
 
 .text {
 	color: #c5c3c6;
-	z-index: 1060 !default;
+	width: 100%;
+	background-color: #146C82;
+	margin: 70px;
+	padding: 30px;
+}
 
+.top {
+	margin-top: 300px;
+}
+
+.me {
+	font-size: 12px;
+	margin-right: 10px;
+	float: right;
+}
+
+a {
+	color: #146C82;
 }
