@@ -37,34 +37,136 @@
 		  </div>
 		</nav>
 	</header>
-	<div id="about" class="container nospace text top">
-		<div class="row nospace">
+	<div id="about" class="container text top">
+		<div class="row">
 			<h3>About Me</h3>
+		</div>
+		<div class="row school">	
 			<p>Driven by the desire to further understand what makes the world, and the people on it, tick, I'm utilizing Python, SQL, and a variety of other tools to best understand the data and information we produce and turn it into something that can provide a little more insight into how the world works.</p> 
 		</div>
 	</div>
-	<div id="ed" class="container nospace text">
-		<div class="row nospace">
+	<div id="ed" class="container text">
+		<div class="row">
 			<h3>Education</h3>
-
+		</div>
+			<div class="row school">
+				<h5>University of Denver - Daniels College of Business</h5>
+			</div>
+			<div class="row">	
+				<h6>Master of Business Administration (MBA), Business Intelligence & Analytics</h6>
+			</div>
+			<div class="row school">
+				<h5>The University of Texas at Austin</h5>
+			</div>
+			<div class="row"	
+				<h6 class="school">Bachelor of Arts (B.A.), Economics</h6>
+			</div>
+			</div>
 		</div>
 	</div>
-	<div id="projects" class="container nospace text">
-		<div class="row nospace">
+	<div id="projects" class="container text">
+		<div class="row">
 			<h3>My Projects</h3>
 
 		</div>
 	</div>
-	<div id="resume" class="container nospace text">
-		<div class="row nospace">
+	<div id="resume" class="container text">
+		<div class="row">
 			<h3>My Resume</h3>
 			
 		</div>		
 	</div>
-	<div id="contact" class="container nospace text">
-		<div class="row nospace">
+	<div id="contact" class="container text">
+		<div class="row">
 			<h3>Contact Me</h3>
-			
+		</div>
+		<div class="row school justify-content-center nospace">
+
+			<section class="section">
+			    <p class="text-center w-responsive mx-auto mb-5">Send me an email or call me at the number below to reach out.</p>
+
+			    <div class="row justify-content-center">
+
+			        <!--Grid column-->
+			        <div class="col-md-9 mb-md-0 mb-5">
+			            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+			                <!--Grid row-->
+			                <div class="row">
+
+			                    <!--Grid column-->
+			                    <div class="col-md-6">
+			                        <div class="md-form mb-0">
+			                            <input type="text" id="name" name="name" class="form-control">
+			                            <label for="name" class="">Your name</label>
+			                        </div>
+			                    </div>
+			                    <!--Grid column-->
+
+			                    <!--Grid column-->
+			                    <div class="col-md-6">
+			                        <div class="md-form mb-0">
+			                            <input type="text" id="email" name="email" class="form-control">
+			                            <label for="email" class="">Your email address</label>
+			                        </div>
+			                    </div>
+			                    <!--Grid column-->
+
+			                </div>
+			                <!--Grid row-->
+
+			                <!--Grid row-->
+			                <div class="row">
+			                    <div class="col-md-12">
+			                        <div class="md-form mb-0">
+			                            <input type="text" id="subject" name="subject" class="form-control">
+			                            <label for="subject" class="">Subject</label>
+			                        </div>
+			                    </div>
+			                </div>
+			                <!--Grid row-->
+
+			                <!--Grid row-->
+			                <div class="row">
+
+			                    <!--Grid column-->
+			                    <div class="col-md-12">
+
+			                        <div class="md-form">
+			                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+			                            <label for="message">Your message</label>
+			                        </div>
+
+			                    </div>
+			                </div>
+			                <!--Grid row-->
+
+			            </form>
+
+			            <div class="text-center text-md-left">
+			                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+			            </div>
+			            <div class="status"></div>
+			        </div>
+			        <div class="col-md-3 text-center justify-content-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>Denver, CO 80019, USA</p>
+                </li>
+
+                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                    <p>+1 234 567 8910</p>
+                </li>
+
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p class="email">arpariseau@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+			    </div>
+
+			</section>
+<!--Section: Contact v.2-->
 		</div>
 
 	</div>

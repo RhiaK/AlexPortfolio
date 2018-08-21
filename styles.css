@@ -56,6 +56,12 @@ li {
 	}
 }
 
+@media only screen and (max-width: 992px) {
+	.email {
+		font-size: 11px;
+	}
+}
+
 .text {
 	color: #c5c3c6;
 	width: 100%;
@@ -67,6 +73,10 @@ li {
 
 .top {
 	margin-top: 300px;
+}
+
+.school {
+	margin-top: 25px;
 }
 
 .me {
