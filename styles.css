@@ -56,17 +56,13 @@ li {
 	}
 }
 
-.nospace {
-	padding: 0px;
-	margin: 0px;
-}
-
 .text {
 	color: #c5c3c6;
 	width: 100%;
 	background-color: #146C82;
-	margin: 70px;
 	padding: 30px;
+	margin-top: 70px;
+	margin-bottom: 100px;
 }
 
 .top {
