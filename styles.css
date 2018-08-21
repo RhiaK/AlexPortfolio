@@ -78,6 +78,22 @@ li {
 	margin-top: 25px;
 }
 
+.projects {
+	background-color: black;
+}
+
+.t {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.p {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
 .me {
 	font-size: 12px;
 	margin-right: 10px;
